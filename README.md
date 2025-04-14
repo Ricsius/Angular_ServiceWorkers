@@ -17,3 +17,11 @@ npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+
+It is recommended to test the service worker on a built project hosted on a local http server (such as npm's http-server).
+
+To build the project, run:
+
+```bash
+ng build
+```
